@@ -1,3 +1,5 @@
+#Obtain SfB Powershell connector from https://www.microsoft.com/en-us/download/details.aspx?id=39366
+
 #Connect to Teams PS Management
 $sfboSession = New-CsOnlineSession
 Import-PSSession $sfboSession
